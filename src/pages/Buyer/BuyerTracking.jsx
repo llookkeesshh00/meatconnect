@@ -68,8 +68,8 @@ const BuyerTracking = () => {
                   <p className="text-md mb-1 mt-4 sm:mt-0 flex gap-10">Product Name: <span className="font-semibold">{order.product_id.productName}</span></p>
                   <p className="text-md mb-1 flex gap-4">Product Category: <span className="font-semibold">{order.product_id.productCategory}</span></p>
                   <p className="text-md mb-1 flex gap-20">Quantity: <span className="font-semibold">{order.quantity}</span></p>
-                  <p className="text-md mb-1 flex gap-12">Price per KG: <span className="font-semibold">${order.product_id.price}</span></p>
-                  <p className="text-md mb-1 flex gap-12">Total Amount: <span className="font-semibold">${order.product_id.price * order.quantity}</span></p>
+                  <p className="text-md mb-1 flex gap-12">Price per KG: <span className="font-semibold">₹{order.product_id.price}</span></p>
+                  <p className="text-md mb-1 flex gap-12">Total Amount: <span className="font-semibold">₹{order.product_id.price * order.quantity}</span></p>
                   <p className="text-md mb-1 flex gap-16">Order Date: <span className="font-semibold">{new Date(order.order_date).toLocaleDateString()}</span></p>
 
                   {/* Buttons at the bottom left */}

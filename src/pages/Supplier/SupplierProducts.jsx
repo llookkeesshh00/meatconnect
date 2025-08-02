@@ -86,7 +86,7 @@ const SupplierProducts = () => {
                     </td>
                     <td className="px-6 py-4">{product.productCategory}</td>
                     <td className="px-6 py-4">{product.productName}</td>
-                    <td className="px-6 py-4">${product.price}</td>
+                    <td className="px-6 py-4">₹{product.price}</td>
                     <td className="px-6 py-4">
                       <button
                         className="bg-gray-200 font-bold text-gray px-4 py-2 rounded transition-all hover:bg-red-500 hover:text-white duration-500 hover:shadow-md"
